@@ -1,1 +1,22 @@
-theme: jekyll-theme-minimal
+url: "https://mghimire.com"
+
+highlighter: rouge
+permalink: /:title/
+markdown: kramdown
+
+future: true
+
+plugins:
+  - jekyll-redirect-from
+
+exclude:
+  - 'node_modules'
+  - 'scripts'
+  - 'vendor'
+  - Gemfile
+  - Gemfile.lock
+  - package.json
+  - package-lock.json
+  - README.md
+  - LICENSE.txt
+  - CNAME
